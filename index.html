@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grow Frame Solutions | Powered by KOMZO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Grow Faster. Look Bigger. Scale Smarter.</h1>
+  <p>
+    Grow Frame Solutions is a growth-focused digital marketing agency powered by
+    <strong>KOMZO</strong> — a professional creative & execution backend.
+  </p>
+  
+</section>
+
+<!-- BRANDING -->
+<section class="branding-section">
+  <div class="brand-logos">
+    <div class="logo-card">
+      <img src="growframe.png" alt="Grow Frame Solutions">
+    </div>
+    <div class="logo-card">
+      <img src="komzo.jpg" alt="KOMZO">
+    </div>
+  </div>
+
+  <p class="branding-text">
+    Grow Frame Solutions operates with <strong>KOMZO</strong> as its creative and
+    execution backbone — enabling scalable growth, consistent delivery,
+    and system-driven execution.
+  </p>
+</section>
+
+<!-- FOUNDERS -->
+<section class="founders-section">
+  <h2>Leadership</h2>
+
+  <div class="founders-grid">
+
+    <!-- Vedang -->
+    <div class="founder-card">
+      <img src="vedang.png" alt="Vedang Purohit">
+      <h3>Vedang Purohit</h3>
+      <p>
+        Founder – KOMZO<br>
+        <span>Creative & Execution Lead</span>
+      </p>
+      <button class="know-more" onclick="toggleFounder('vedang')">
+        Know More
+      </button>
+    </div>
+
+    <!-- Pratyush -->
+    <div class="founder-card">
+      <img src="pratyush.jpeg" alt="Pratyush Parekh">
+      <h3>Pratyush Parekh</h3>
+      <p>
+        Founder – Grow Frame Solutions<br>
+        <span>Strategy & Growth Lead</span>
+      </p>
+      <button class="know-more" onclick="toggleFounder('pratyush')">
+        Know More
+      </button>
+    </div>
+
+  </div>
+
+  <!-- DETAILS -->
+  <div class="founder-details">
+
+    <!-- Vedang Details -->
+    <div id="vedang" class="details-box">
+      <h3>Vedang Purohit</h3>
+      <p>
+        Vedang Purohit is a creative professional with a multidisciplinary
+        background across advertising, digital content, and music production.
+      </p>
+      <p>
+        He is the founder of <strong>KOMZO</strong>, a creative backend system
+        built to support agencies and brands with high-quality execution,
+        scalable workflows, and modern AI-assisted production.
+      </p>
+      <p>
+        Beyond advertising, Vedang is also a published musical artist with
+        officially released music on major streaming platforms.
+      </p>
+      <p>
+        His work has received state-level recognition, including acknowledgment
+        from the Hon’ble Chief Minister of Gujarat.
+      </p>
+      <p>
+        <strong>
+          KOMZO exists to remove execution limits — so agencies can focus on growth.
+        </strong>
+      </p>
+    </div>
+
+    <!-- Pratyush Details -->
+    <div id="pratyush" class="details-box">
+      <h3>Pratyush Parekh</h3>
+      <p>
+        Pratyush Parekh is the founder of <strong>Grow Frame Solutions</strong>,
+        a growth-focused digital marketing agency built to help brands scale
+        with clarity and consistency.
+      </p>
+      <p>
+        With strong expertise in brand positioning, client communication, and
+        campaign strategy, Pratyush leads front-end operations — ensuring
+        every brand gets the right direction and growth roadmap.
+      </p>
+      <p>
+        Grow Frame Solutions partners with <strong>KOMZO</strong> as its backend
+        execution engine, allowing professional output without creative bottlenecks.
+      </p>
+      <p>
+        <strong>
+          Strategy in front. Systems at the back. Growth in between.
+        </strong>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="cta">
+  <h2>Let’s Build a Brand That Scales</h2>
+  <p>Call us directly to start your growth journey.</p>
+  <a href="tel:9537311136" class="btn primary">📞 9537311136</a>
+</section>
+
+<footer>
+  © 2025 KOMZO
+</footer>
+
+<!-- SCRIPT -->
+<script>
+function toggleFounder(id) {
+  const boxes = document.querySelectorAll('.details-box');
+
+  boxes.forEach(box => {
+    if (box.id === id) {
+      box.style.display =
+        box.style.display === 'block' ? 'none' : 'block';
+    } else {
+      box.style.display = 'none';
+    }
+  });
+}
+</script>
+
+</body>
+</html>
